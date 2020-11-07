@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Desktop Notification Tester
 // @namespace    http://example.tld
-// @version      0.1
+// @version      0.2
 // @description  Testing Desktop notifications with tampermonkey
 // @updateUrl    https://github.com/dill0wn/UserScripts/raw/master/sandbox.user.js
 // @downloadUrl  https://github.com/dill0wn/UserScripts/raw/master/sandbox.user.js
@@ -15,7 +15,7 @@ function notifyMe() {
 
     GM_notification({
         title:'Delayed Notification',
-        text:'Hey there! You\'ve been notified!',
+        text:'Hey there! You\'ve been notified! (Version 2)',
         silent:false,
         onclick: function() {
             window.focus();
