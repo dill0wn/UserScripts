@@ -12,8 +12,6 @@
 
 
 function notifyMe() {
-    // @updateUrl    https://github.com/dill0wn/UserScripts/raw/master/sandbox.user.js
-    // @downloadUrl  https://github.com/dill0wn/UserScripts/raw/master/sandbox.user.js
 
     GM_notification({
         title:'Delayed Notification',
