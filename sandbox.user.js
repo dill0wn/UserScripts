@@ -3,8 +3,8 @@
 // @namespace    http://example.tld
 // @version      0.5
 // @description  Testing Desktop notifications with tampermonkey
-// @updateUrl    https://github.com/dill0wn/UserScripts/raw/master/sandbox.user.js
-// @downloadUrl  https://github.com/dill0wn/UserScripts/raw/master/sandbox.user.js
+// @updateUrl    https://raw.githubusercontent.com/dill0wn/UserScripts/master/sandbox.user.js
+// @downloadUrl  https://raw.githubusercontent.com/dill0wn/UserScripts/master/sandbox.user.js
 // @author       dill0wn
 // @match        https://direct.playstation.com/*
 // @grant        GM_notification
