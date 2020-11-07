@@ -3,15 +3,17 @@
 // @namespace    http://example.tld
 // @version      0.2
 // @description  Testing Desktop notifications with tampermonkey
-// @updateUrl    https://github.com/dill0wn/UserScripts/raw/master/sandbox.user.js
-// @downloadUrl  https://github.com/dill0wn/UserScripts/raw/master/sandbox.user.js
 // @author       dill0wn
 // @match        https://direct.playstation.com/*
 // @grant        GM_notification
 // ==/UserScript==
 
 
+
+
 function notifyMe() {
+    // @updateUrl    https://github.com/dill0wn/UserScripts/raw/master/sandbox.user.js
+    // @downloadUrl  https://github.com/dill0wn/UserScripts/raw/master/sandbox.user.js
 
     GM_notification({
         title:'Delayed Notification',
