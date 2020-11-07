@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Desktop Notification Tester
 // @namespace    http://example.tld
-// @version      0.2
+// @version      0.3
 // @description  Testing Desktop notifications with tampermonkey
 // @author       dill0wn
 // @match        https://direct.playstation.com/*
@@ -15,7 +15,7 @@ function notifyMe() {
 
     GM_notification({
         title:'Delayed Notification',
-        text:'Hey there! You\'ve been notified! (Version 2)',
+        text:'Hey there! You\'ve been notified! (Version 3)',
         silent:false,
         onclick: function() {
             window.focus();
