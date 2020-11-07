@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Desktop Notification Tester
 // @namespace    http://example.tld
-// @version      0.4
+// @version      0.5
 // @description  Testing Desktop notifications with tampermonkey
 // @author       dill0wn
 // @match        https://direct.playstation.com/*
