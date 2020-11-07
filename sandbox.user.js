@@ -15,7 +15,7 @@ function notifyMe() {
 
     GM_notification({
         title:'Delayed Notification',
-        text:'Hey there! You\'ve been notified! (Version 3)',
+        text:'Hey there! You\'ve been notified! (Version 6)',
         silent:false,
         onclick: function() {
             window.focus();
